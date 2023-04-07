@@ -1,5 +1,8 @@
 # algoritmaanalizivetasarimiodev2
 ALFA-BETA BUDAMA ALGORİTMASI
+
+
+
 Algoritmanın Amacı
 Bu program, alfa-beta budama algoritmasını kullanarak, bir ağaç yapısındaki en iyi değeri bulmayı amaçlamaktadır. 
 Algoritma, bir oyun ağacında (veya herhangi bir ağaç yapısında) gezinerek, her bir düğümün değerini hesaplar ve ardından bir en iyi hamle seçer. 
