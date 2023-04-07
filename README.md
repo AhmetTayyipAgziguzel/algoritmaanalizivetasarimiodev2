@@ -1,4 +1,4 @@
-# algoritmaanalizivetasarimiodev2
+# algoritmaanalizivetasarimiodev2soru1
 ALFA-BETA BUDAMA ALGORİTMASI
 
 
