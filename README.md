@@ -43,8 +43,11 @@ Algoritmanın Çalışma Zamanı Analizi
 
 Bu programda kullanılan algoritma, Alfa-Beta budama algoritmasıdır. Bu algoritma, Min-Max algoritmasının geliştirilmiş bir versiyonudur ve arama ağacındaki dalların gereksiz şekilde incelenmesini engeller. Algoritma, birçok yapay zeka uygulamasında kullanılır.
 Bu programda, Alfa-Beta budama algoritması bir tam kararlığa sahip olduğundan, her durumda en iyi, en kötü ve ortalama durumlar için sınırlar belirtilmesi mümkün değildir. Ancak, genel olarak en iyi, en kötü ve ortalama durumlar aşağıdaki şekilde açıklanabilir:
+
 •	En iyi durum: Algoritmanın çalışma süresi, ağacın yapısı ve aranılan değerlerin yerleşimi nedeniyle, algoritma birkaç adımda aranan en iyi değeri bulabilir. Bu durumda, algoritmanın çalışma süresi, ağaç derinliğiyle doğru orantılıdır ve O(log n) olarak ifade edilebilir.
+
 •	En kötü durum: Algoritmanın çalışma süresi, ağacın yapısı ve aranılan değerlerin yerleşimi nedeniyle, algoritmanın tüm dallarını araması gerektiği durumlarda en kötü durum ortaya çıkar. Bu durumda, algoritmanın çalışma süresi O(2^n) olarak ifade edilebilir.
+
 •	Ortalama durum: Algoritmanın çalışma süresi, ağacın yapısı ve aranılan değerlerin yerleşimi nedeniyle, en iyi ve en kötü durum arasında bir durumda olabilir. Algoritmanın çalışma süresi, ağaç derinliği ve ağacın dallarının seçilmesi ile doğru orantılıdır. Bu durumda, algoritmanın çalışma süresi O(b^(d/2)) olarak ifade edilebilir, burada b dal sayısı, d derinlik ve /2 ise ağaçta dalların yarısını ziyaret etmesi nedeniyle.
 
 
